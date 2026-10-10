@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000023",
+  "project_sequence": 23,
+  "project_name": "Bancas Examinadoras",
+  "project_alias": null,
+  "project_id_legacy": "bancas-examinadoras",
+  "repository": "thiagoba2004/bancas-examinadoras",
+  "updated_at": "2026-10-10",
+  "status": "TECHNICAL_BOOTSTRAP_IN_PROGRESS",
+  "generator_project_code": "PRJ-000002",
+  "generator_strategy_code": "EA-000002-000026",
+  "generator_route": "A",
+  "generated_from_kernel": "1.11",
+  "current_strategy_code": "EA-000023-000001",
+  "current_strategy_name": "Inicialização canônica do PRJ-000023 pela Rota A",
+  "current_phase_code": "F-000023-000001-001",
+  "strategy_status": "EM_EXECUCAO",
+  "project_purpose_status": "EXPLICIT_EXAM_BOARD_ORGANIZERS_TOPIC_CONFIRMED",
+  "project_purpose": "Estudar e documentar bancas examinadoras que organizam concursos públicos brasileiros, a partir de fontes públicas verificáveis.",
+  "target_audience_status": "PENDING_DEFINITION",
+  "substantive_deliverables_status": "PENDING_HUMAN_SCOPE_DEFINITION",
+  "site_status": "NOT_REQUESTED_NOT_VERIFIED",
+  "repository_visibility": "PUBLIC",
+  "artifact_policy": {
+    "markdown": "PRIMARY_TEXT",
+    "json": "STRUCTURED_DATA_WITH_REAL_CONSUMER_ONLY"
+  },
+  "module_profile_ref": "thiagoba2004/gerador-de-agents/profiles/bancas-examinadoras.json",
+  "canonical_files": [
+    "README.md",
+    "AGENTS.md",
+    "REQUEST_LOG.jsonl",
+    "STRATEGY_LOG.jsonl",
+    "PROJECT_STATE.json",
+    "ROADMAP.md",
+    "INFORMATION_HANDLING_PROFILE.json",
+    "estrategias/EA-000023-000001-bootstrap-rota-a.md"
+  ],
+  "last_completed_milestone": "Repo público existente confirmado; identidade PRJ-000023 registrada no Gerador e Governança Geral.",
+  "pending_items": [
+    "Concluir e verificar bootstrap técnico por readback GitHub.",
+    "Delimitar primeiro produto de pesquisa, recorte institucional e fontes.",
+    "Handoff A6 ainda não pode ser aceito sem Projeto ChatGPT especializado e teste de leitura de estado."
+  ],
+  "next_logical_step": "Concluir bootstrap e sua verificação remota; em seguida recomendar C3 via PSFCE para eventual ChatGPT Project e transferir titularidade por A6 após aceite comprovado.",
+  "no_new_spending": true,
+  "last_concluded_strategy_code": null,
+  "initialization_gate": "IN_PROGRESS_NOT_VERIFIED",
+  "operational_handoff": {
+    "target_owner": "SPECIALIZED_CHATGPT_PROJECT_RECOMMENDED",
+    "target_memory_mode": "C3_RECOMMENDED_NOT_APPROVED",
+    "actual_binding": "NOT_VERIFIED",
+    "actual_memory_mode": "NOT_VERIFIED",
+    "status": "SPECIALIZED_INSTANCE_REQUIRED",
+    "gate": "A6_PENDING"
+  }
+}
