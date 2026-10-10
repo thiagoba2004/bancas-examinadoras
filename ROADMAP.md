@@ -25,3 +25,11 @@ Conforme AECP/PSFCE, **recomendar** memória exclusiva `C3` em um futuro Projeto
 Gate `A6 = HANDOFF_PENDING` até teste, dentro do Projeto ChatGPT real, do acesso ao `AGENTS.md`, `PROJECT_STATE.json`, identidade, estado e fontes. Constituição documental não equivale a transferência operacional.
 
 **Sem Site/Pages ou serviço solicitado**; sem dados privados de candidatos, sem afiliação oficial, sem novas despesas.
+
+## Verificação e encerramento técnico — 10/10/2026
+
+A `EA-000023-000001` foi concluída **somente para constituição técnica**, com 8 arquivos de projeto recuperados em `main` e perfil do Gerador, IDs e JSON/JSONL validados. Fonte do estado: `PROJECT_STATE.json` e eventos de `STRATEGY_LOG.jsonl`. Não inferir pesquisa, contrato, classificação real de bancas, Site/Pages ou afiliação oficial.
+
+**Estado do handoff:** `SPECIALIZED_INSTANCE_REQUIRED / A6_PENDING`. A PSFCE indica C3 como recomendação, **não aprovada nem configurada** para este PRJ. Uma futura decisão humana deve ser implementada e testada na interface do ChatGPT antes do aceite A6.
+
+**Próxima entrega candidata após handoff:** delimitar e elaborar um inventário de bancas organizadoras e fontes primárias de concursos, com método, período, âmbito de seleção e verificação individual definidos pelo Chat especializado. Não iniciar como pesquisa concluída.
