@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000023",
+  "project_name": "Bancas Examinadoras",
+  "updated_at": "2026-10-10",
+  "repository": {
+    "visibility": "PUBLIC",
+    "verified_by": "GITHUB_METADATA_2026-10-10",
+    "surface": "P2_GIT_PUBLICO_REPOSITORIO",
+    "s2_or_higher_allowed": false,
+    "raw_s3_allowed": false,
+    "s4_allowed": false,
+    "confidential_content_allowed": false
+  },
+  "pages": {
+    "enabled": null,
+    "status": "NOT_REQUESTED_NOT_VERIFIED",
+    "publication_gate_required": true
+  },
+  "rules": {
+    "allowed": "Only S0 public and S1 reviewed specifically for exposure",
+    "candidate_data": "No private individual candidate data, private evaluation records, identification documents or internal correspondence",
+    "secrets": "Never commit passwords, keys, tokens, credentials",
+    "sensitive_sources": "Use only authorized private/vault surfaces; public GitHub is not a secret store",
+    "authenticity": "Institutional records are source evidence, not affiliation or endorsement"
+  },
+  "retroactive_history_audit": {
+    "status": "NOT_PERFORMED",
+    "note": "Repository empty prior to initial bootstrap; current commits still require review."
+  },
+  "basis": "PRJ-000002:REQ-20261010-005"
+}
