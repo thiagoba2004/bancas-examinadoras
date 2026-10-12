@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "path": "comunicados/SCIV_STATE.json",
+      "sha256": "eaee6e91efe864a0192d89a1baa9cad75493d54572f00808873fd9a773848125",
+      "status": "PASS"
+    },
+    {
+      "path": "adaptadores/chatgpt/INSTRUCOES.md",
+      "sha256": "7241bde7fb7935d494af4f42c5699ac00a5b69eeb011f9935350ba7751f8a3c3",
+      "status": "PASS"
+    },
+    {
+      "path": "comunicados/governanca-geral/mensagens/README.md",
+      "sha256": "8c3cd8a3acb687283757476441b7f9ce91865ee04ddf0a5c6894651caa7ffd81",
+      "status": "PASS"
+    },
+    {
+      "path": "comunicados/governanca-geral/historico/README.md",
+      "sha256": "b2040be78aeea4cba5db1b2fe8e4b139e8f0c022f7e4563a78df6c7bad1e0f94",
+      "status": "PASS"
+    },
+    {
+      "path": "comunicados/ia-especializada/mensagens/README.md",
+      "sha256": "81260205e8a2be7f90903999c371d78ae0a9f4a966b13a56e81ed8b2442fcec5",
+      "status": "PASS"
+    },
+    {
+      "path": "comunicados/ia-especializada/historico/README.md",
+      "sha256": "cd8743ae417c49258d58a05c08a6c21e642a75adaff76aa2ff1310434e3d771f",
+      "status": "PASS"
+    },
+    {
+      "path": "REQUEST_LOG.jsonl",
+      "sha256": "049e5f8f788b58ed8526f51b7be0c493670d91fd872791db42325d01e3f47575",
+      "status": "PASS"
+    },
+    {
+      "path": "governanca/testes-sciv/2026-10-12/INSTRUCOES-before.md",
+      "sha256": "70fff838bbe8cb7764484ed36bc756b29e539d8b617c9da8a4c7b6fb4a19685c",
+      "status": "PASS"
+    },
+    {
+      "path": "governanca/testes-sciv/2026-10-12/adapter-preservation.json",
+      "sha256": "1d750c6f8e03851b0ebf3437bfe1ab4e72433d8058f4af93c4e242d43ae97e11",
+      "status": "PASS"
+    },
+    {
+      "path": "governanca/testes-sciv/2026-10-12/dependencias.json",
+      "sha256": "cb8232b46471c00fd9d679cb41d74479de5fe67391593f2baf416a3deffbda88",
+      "status": "PASS"
+    },
+    {
+      "path": "governanca/testes-sciv/2026-10-12/sciv_delivery.py",
+      "sha256": "a988bd96a4544c4e73e6ca7c7988468ab7b703626dbc1b5afa29c97157135b9b",
+      "status": "PASS"
+    }
+  ],
+  "outside_managed_block_bytes_identical": true,
+  "actual_local_repeat_writes": 0,
+  "sciv_enabled": false,
+  "physical_symlink": "SKIP_ENV_NOT_SUPPORTED_NOT_PASS",
+  "scope": "CODEX_LOCAL_DOCUMENTARY_NOT_INDEPENDENT_ASSURANCE"
+}

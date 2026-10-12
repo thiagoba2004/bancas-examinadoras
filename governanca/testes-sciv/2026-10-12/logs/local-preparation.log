@@ -1,0 +1,14 @@
+{"tests_run": 8, "failures": 0, "errors": 0, "skips": 1, "negative_effect_checks_denied": 3}
+test_apply_repeat_collision_and_no_partial_bytes (local_delivery_tests.Tests.test_apply_repeat_collision_and_no_partial_bytes) ... ok
+test_composition_and_repeat (local_delivery_tests.Tests.test_composition_and_repeat) ... ok
+test_disabled_contract_and_invalid_reference (local_delivery_tests.Tests.test_disabled_contract_and_invalid_reference) ... ok
+test_duplicate_markers_and_hardlink (local_delivery_tests.Tests.test_duplicate_markers_and_hardlink) ... ok
+test_failure_before_and_between_writes_recovery (local_delivery_tests.Tests.test_failure_before_and_between_writes_recovery) ... ok
+test_jsonl_repeat_collision (local_delivery_tests.Tests.test_jsonl_repeat_collision) ... ok
+test_paths (local_delivery_tests.Tests.test_paths) ... ok
+test_physical_symlink (local_delivery_tests.Tests.test_physical_symlink) ... skipped "SKIP_ENV_NOT_SUPPORTED:[WinError 1314] O cliente não tem o privilégio necessário: '<CHECKOUT>\\\\.sciv-stage-20261012\\\\results-guarded-r01\\\\local-preparation-scratch\\\\tmpsvwk7cvr\\\\outside' -> '<CHECKOUT>\\\\.sciv-stage-20261012\\\\results-guarded-r01\\\\local-preparation-scratch\\\\tmpsvwk7cvr\\\\link'"
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.160s
+
+OK (skipped=1)

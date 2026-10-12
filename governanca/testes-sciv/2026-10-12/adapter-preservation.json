@@ -1,0 +1,8 @@
+{
+  "before_sha256": "70fff838bbe8cb7764484ed36bc756b29e539d8b617c9da8a4c7b6fb4a19685c",
+  "after_sha256": "7241bde7fb7935d494af4f42c5699ac00a5b69eeb011f9935350ba7751f8a3c3",
+  "outside_managed_block_bytes_identical": true,
+  "template_sha256": "b92a83c26388edcc77c6d8394786bac0020050f614f5e9656c5e177c5d2031e8",
+  "render_disabled_result": null,
+  "composition_scope": "DOCUMENTARY_PREPARATION_NOT_PROPAGATION"
+}

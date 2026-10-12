@@ -1,0 +1,40 @@
+{
+  "suites": [
+    {
+      "suite": "dependencies",
+      "exit_code": 0
+    },
+    {
+      "suite": "local-preparation",
+      "exit_code": 0
+    },
+    {
+      "suite": "generator",
+      "exit_code": 0
+    },
+    {
+      "suite": "runtime",
+      "exit_code": 0
+    },
+    {
+      "suite": "pep-offline",
+      "exit_code": 0
+    },
+    {
+      "canonical_and_dependency_bytes_and_index_unchanged": true
+    }
+  ],
+  "tests_executed": 153,
+  "PASS": 151,
+  "SKIP_ENV_NOT_SUPPORTED": 2,
+  "FAIL": 0,
+  "ERROR": 0,
+  "physical_symlink_verified": false,
+  "scope": "SELECTED_OFFLINE_SUITES_CODEX_NOT_INDEPENDENT_ASSURANCE",
+  "excluded": [
+    "Generator legacy tests requiring fixture commits",
+    "Generator Site CLI exit-code test",
+    "SCIV CLI subprocess recovery test",
+    "Other runtime suites outside this bounded selection"
+  ]
+}

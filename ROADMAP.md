@@ -38,3 +38,9 @@ A `EA-000023-000001` foi concluída **somente para constituição técnica**, co
 ## EA-000023-000002 — SCIV Essencial Sob Demanda (11/10/2026)
 
 Novo mandato `REQ-GLOBAL-20261011-001`, pedido local `REQ-000023-20261011-004`; Plano em `estrategias/EA-000023-000002-sciv-sob-demanda.md` e matriz `estrategias/EA-000023-000002-actions.json`. F001: constituição documental e registro dual. F002–F004: **CODEX local em PRJ-000023** para caixas/estado, adaptador integral e testes offline, com `mode=ON_DEMAND`, `enabled=false`, segurança e readback. F005–F006: **somente depois** de instalação humana de Instruções e gate A6 próprio, quando admissíveis. A recomendação C3 **não foi aprovada/configurada**; A6 permanece pendente. Não há mandato de Site/Pages nem pesquisa substantiva. Prova física do symlink deve ser classificada e resolvida **antes de ativação operacional**; `SKIP` não é `PASS`. O SCIV de PRJ-000022 tem aceite de escopo repositório com ressalva ambiental e **não concede** permissões ao PRJ-000023.
+
+
+## Checkpoint CODEX — 12/10/2026
+
+F002/F003 aplicadas localmente sob manifesto autorizado; F004: 151 PASS e 2 SKIP físicos, zero FAIL/ERROR nas suítes selecionadas. Gate documental SCIV PASS; primeira EA histórica NOT_BACKFILLED comprovada por Git. Gate bootstrap permanece estrito (controle negativo com falha esperada). Publicação/readback ainda pendentes neste checkpoint. Nenhuma promoção C3/A6 ou ativação SCIV.
+Relatório: `auditorias/EA-000023-000002-codex-sciv-f002-f004-2026-10-12.md`.

@@ -1,0 +1,67 @@
+{"tests_run": 61, "failures": 0, "errors": 0, "skips": 1, "negative_effect_checks_denied": 3}
+test_accept_is_discussion_only (test_sciv_essential.EssentialTests.test_accept_is_discussion_only) ... ok
+test_access_failure_not_empty (test_sciv_essential.EssentialTests.test_access_failure_not_empty) ... ok
+test_assessment_cannot_promote_state (test_sciv_essential.EssentialTests.test_assessment_cannot_promote_state) ... ok
+test_blocked_decision_has_grounded_result (test_sciv_essential.EssentialTests.test_blocked_decision_has_grounded_result) ... ok
+test_changed_message_id_content_denied (test_sciv_essential.EssentialTests.test_changed_message_id_content_denied) ... ok
+test_conflicting_response_not_overwritten (test_sciv_essential.EssentialTests.test_conflicting_response_not_overwritten) ... ok
+test_correlated_grounded_objection (test_sciv_essential.EssentialTests.test_correlated_grounded_objection) ... ok
+test_corrupt_reply_correlation_denied (test_sciv_essential.EssentialTests.test_corrupt_reply_correlation_denied) ... ok
+test_different_project_denied (test_sciv_essential.EssentialTests.test_different_project_denied) ... ok
+test_duplicate_id_prevents_response (test_sciv_essential.EssentialTests.test_duplicate_id_prevents_response) ... ok
+test_earlier_assessment_denied (test_sciv_essential.EssentialTests.test_earlier_assessment_denied) ... ok
+test_expired_message_denied (test_sciv_essential.EssentialTests.test_expired_message_denied) ... ok
+test_future_assessment_not_evidence (test_sciv_essential.EssentialTests.test_future_assessment_not_evidence) ... ok
+test_future_claims_not_permissions (test_sciv_essential.EssentialTests.test_future_claims_not_permissions) ... ok
+test_higher_risks_require_reinforced (test_sciv_essential.EssentialTests.test_higher_risks_require_reinforced) ... ok
+test_history_cannot_promote_state (test_sciv_essential.EssentialTests.test_history_cannot_promote_state) ... ok
+test_injection_text_is_not_executed (test_sciv_essential.EssentialTests.test_injection_text_is_not_executed) ... ok
+test_input_unavailable_denied (test_sciv_essential.EssentialTests.test_input_unavailable_denied) ... ok
+test_malformed_or_duplicate_keys_not_empty (test_sciv_essential.EssentialTests.test_malformed_or_duplicate_keys_not_empty) ... ok
+test_message_to_other_project_denied (test_sciv_essential.EssentialTests.test_message_to_other_project_denied) ... ok
+test_missing_assessment_grounds_denied (test_sciv_essential.EssentialTests.test_missing_assessment_grounds_denied) ... ok
+test_missing_basis_not_pending_for_essential (test_sciv_essential.EssentialTests.test_missing_basis_not_pending_for_essential) ... ok
+test_missing_evidence_denied (test_sciv_essential.EssentialTests.test_missing_evidence_denied) ... ok
+test_missing_inbox_not_empty (test_sciv_essential.EssentialTests.test_missing_inbox_not_empty) ... ok
+test_path_traversal_denied (test_sciv_essential.EssentialTests.test_path_traversal_denied) ... ok
+test_privileged_operation_requires_reinforced (test_sciv_essential.EssentialTests.test_privileged_operation_requires_reinforced) ... ok
+test_provisioned_empty_fixture (test_sciv_essential.EssentialTests.test_provisioned_empty_fixture) ... ok
+test_public_surfaces_denied (test_sciv_essential.EssentialTests.test_public_surfaces_denied) ... ok
+test_real_pep_guard_still_denies (test_sciv_essential.EssentialTests.test_real_pep_guard_still_denies) ... ok
+test_real_symlink_denied (test_sciv_essential.EssentialTests.test_real_symlink_denied) ... skipped 'SKIP_ENV_NOT_SUPPORTED: real symlink creation unavailable (22, winerror=1314)'
+test_replay_and_restart_use_same_examined_draft (test_sciv_essential.EssentialTests.test_replay_and_restart_use_same_examined_draft) ... ok
+test_s0_and_s1_admitted_only_private_surface (test_sciv_essential.EssentialTests.test_s0_and_s1_admitted_only_private_surface) ... ok
+test_s2_s3_s4_denied (test_sciv_essential.EssentialTests.test_s2_s3_s4_denied) ... ok
+test_snapshot_bytes_integrity_checked (test_sciv_essential.EssentialTests.test_snapshot_bytes_integrity_checked) ... ok
+test_symlink_guard_denied_controlled (test_sciv_essential.EssentialTests.test_symlink_guard_denied_controlled) ... ok
+test_valid_consult_is_pending_not_authorized (test_sciv_essential.EssentialTests.test_valid_consult_is_pending_not_authorized) ... ok
+test_actual_visibility_change_denied_before_git_read (test_sciv_per_project.PerProjectTests.test_actual_visibility_change_denied_before_git_read) ... ok
+test_central_live_scanner_is_archive_only (test_sciv_per_project.PerProjectTests.test_central_live_scanner_is_archive_only) ... ok
+test_duplicates_and_corrupt_replies_alert (test_sciv_per_project.PerProjectTests.test_duplicates_and_corrupt_replies_alert) ... ok
+test_four_canonical_routes (test_sciv_per_project.PerProjectTests.test_four_canonical_routes) ... ok
+test_historical_only_not_fallback (test_sciv_per_project.PerProjectTests.test_historical_only_not_fallback) ... ok
+test_local_append_plan_rejects_central_receipt (test_sciv_per_project.PerProjectTests.test_local_append_plan_rejects_central_receipt) ... ok
+test_local_receipt_idempotence_and_restart (test_sciv_per_project.PerProjectTests.test_local_receipt_idempotence_and_restart) ... ok
+test_missing_empty_and_unavailable_inbox_differ (test_sciv_per_project.PerProjectTests.test_missing_empty_and_unavailable_inbox_differ) ... ok
+test_outbox_empty_not_unavailable (test_sciv_per_project.PerProjectTests.test_outbox_empty_not_unavailable) ... ok
+test_project_live_append_remains_real_pep_denied (test_sciv_per_project.PerProjectTests.test_project_live_append_remains_real_pep_denied) ... ok
+test_public_anonymous_read_adapter_requires_no_new_credential (test_sciv_per_project.PerProjectTests.test_public_anonymous_read_adapter_requires_no_new_credential) ... ok
+test_public_injection_stays_data (test_sciv_per_project.PerProjectTests.test_public_injection_stays_data) ... ok
+test_public_s0_does_not_require_mediator (test_sciv_per_project.PerProjectTests.test_public_s0_does_not_require_mediator) ... ok
+test_public_s1_requires_specific_review (test_sciv_per_project.PerProjectTests.test_public_s1_requires_specific_review) ... ok
+test_public_s2_and_wrong_surface_denied (test_sciv_per_project.PerProjectTests.test_public_s2_and_wrong_surface_denied) ... ok
+test_registry_mismatch_denied (test_sciv_per_project.PerProjectTests.test_registry_mismatch_denied) ... ok
+test_remote_reply_prevents_repeated_draft_after_restart (test_sciv_per_project.PerProjectTests.test_remote_reply_prevents_repeated_draft_after_restart) ... ok
+test_reply_claim_does_not_authorize_execution (test_sciv_per_project.PerProjectTests.test_reply_claim_does_not_authorize_execution) ... ok
+test_reply_objection_correlates_original_bytes (test_sciv_per_project.PerProjectTests.test_reply_objection_correlates_original_bytes) ... ok
+test_reply_wrong_correlation_denied (test_sciv_per_project.PerProjectTests.test_reply_wrong_correlation_denied) ... ok
+test_reply_wrong_original_hash_denied (test_sciv_per_project.PerProjectTests.test_reply_wrong_original_hash_denied) ... ok
+test_reply_wrong_sender_denied (test_sciv_per_project.PerProjectTests.test_reply_wrong_sender_denied) ... ok
+test_scan_local_path_and_ignore_historical_central (test_sciv_per_project.PerProjectTests.test_scan_local_path_and_ignore_historical_central) ... ok
+test_unregistered_and_duplicate_namespace_denied (test_sciv_per_project.PerProjectTests.test_unregistered_and_duplicate_namespace_denied) ... ok
+test_wrong_repository_or_branch_denied (test_sciv_per_project.PerProjectTests.test_wrong_repository_or_branch_denied) ... ok
+
+----------------------------------------------------------------------
+Ran 61 tests in 0.159s
+
+OK (skipped=1)

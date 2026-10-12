@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "project_code": "PRJ-000023",
+  "repository": "thiagoba2004/bancas-examinadoras",
+  "strategy_code": "EA-000023-000002",
+  "mode": "ON_DEMAND",
+  "enabled": false,
+  "operational_ref": "main",
+  "inbox": "comunicados/governanca-geral/mensagens",
+  "outbox": "comunicados/ia-especializada/mensagens",
+  "opt_in_authorized": true,
+  "authorization_ref": "REQ-GLOBAL-20261011-001",
+  "native_instructions_installed": false,
+  "C3_human_approved": false,
+  "A6_accepted": false,
+  "operational_activation_blocked": true,
+  "os_symlink_physical_test": "NOT_VERIFIED"
+}

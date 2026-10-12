@@ -1,0 +1,83 @@
+{
+  "base_commit": "189763dc611b2eb5817773330c7e9d66a2576a3a",
+  "strategy_code": "EA-000023-000002",
+  "action_keys": [
+    "002",
+    "003",
+    "004"
+  ],
+  "executor": "CODEX_LOCAL_PRJ000023",
+  "classification": "S0_PUBLIC_TECHNICAL",
+  "effect_class": "LOCAL_DOCUMENTARY_MULTIFILE",
+  "external_effects": [],
+  "review_requirement": "INTERACTIVE_MANIFEST_BOUND_APPLY",
+  "recovery": "Per-file atomic writes; partial application reported; reconcile exact old/new bytes; no blind rollback.",
+  "script_sha256": "a988bd96a4544c4e73e6ca7c7988468ab7b703626dbc1b5afa29c97157135b9b",
+  "files": [
+    {
+      "path": "comunicados/SCIV_STATE.json",
+      "old_sha256": null,
+      "new_sha256": "eaee6e91efe864a0192d89a1baa9cad75493d54572f00808873fd9a773848125"
+    },
+    {
+      "path": "adaptadores/chatgpt/INSTRUCOES.md",
+      "old_sha256": "70fff838bbe8cb7764484ed36bc756b29e539d8b617c9da8a4c7b6fb4a19685c",
+      "new_sha256": "7241bde7fb7935d494af4f42c5699ac00a5b69eeb011f9935350ba7751f8a3c3"
+    },
+    {
+      "path": "comunicados/governanca-geral/mensagens/README.md",
+      "old_sha256": null,
+      "new_sha256": "8c3cd8a3acb687283757476441b7f9ce91865ee04ddf0a5c6894651caa7ffd81"
+    },
+    {
+      "path": "comunicados/governanca-geral/historico/README.md",
+      "old_sha256": null,
+      "new_sha256": "b2040be78aeea4cba5db1b2fe8e4b139e8f0c022f7e4563a78df6c7bad1e0f94"
+    },
+    {
+      "path": "comunicados/ia-especializada/mensagens/README.md",
+      "old_sha256": null,
+      "new_sha256": "81260205e8a2be7f90903999c371d78ae0a9f4a966b13a56e81ed8b2442fcec5"
+    },
+    {
+      "path": "comunicados/ia-especializada/historico/README.md",
+      "old_sha256": null,
+      "new_sha256": "cd8743ae417c49258d58a05c08a6c21e642a75adaff76aa2ff1310434e3d771f"
+    },
+    {
+      "path": "REQUEST_LOG.jsonl",
+      "old_sha256": "db356df68ebb37aefa1e289093dffad31972a15917eb96fe080e986d2a38814c",
+      "new_sha256": "049e5f8f788b58ed8526f51b7be0c493670d91fd872791db42325d01e3f47575"
+    },
+    {
+      "path": "governanca/testes-sciv/2026-10-12/INSTRUCOES-before.md",
+      "old_sha256": null,
+      "new_sha256": "70fff838bbe8cb7764484ed36bc756b29e539d8b617c9da8a4c7b6fb4a19685c"
+    },
+    {
+      "path": "governanca/testes-sciv/2026-10-12/adapter-preservation.json",
+      "old_sha256": null,
+      "new_sha256": "1d750c6f8e03851b0ebf3437bfe1ab4e72433d8058f4af93c4e242d43ae97e11"
+    },
+    {
+      "path": "governanca/testes-sciv/2026-10-12/dependencias.json",
+      "old_sha256": null,
+      "new_sha256": "cb8232b46471c00fd9d679cb41d74479de5fe67391593f2baf416a3deffbda88"
+    },
+    {
+      "path": "governanca/testes-sciv/2026-10-12/sciv_delivery.py",
+      "old_sha256": null,
+      "new_sha256": "a988bd96a4544c4e73e6ca7c7988468ab7b703626dbc1b5afa29c97157135b9b"
+    }
+  ],
+  "guards": {
+    "AGENTS.md": "ed6b4912d4ba2fcf78f4d1e1133992db0d3940052baf3269d1d9498601e47cd9",
+    "PROJECT_STATE.json": "73cd60671393135eb5fa4d43bc588d59360b9596b2e93042d36dd99f181c9609",
+    "STRATEGY_LOG.jsonl": "07ab9d0d60f475f83047a5e3fb16597e5afb3ec54782cc016cd12d9108231754",
+    "ROADMAP.md": "a60477e6a24d5f8618ea29f33edfdeb89f1dc7ffa0dfa14b58cf54ee87f3a8c3",
+    "INFORMATION_HANDLING_PROFILE.json": "8cb7d8c807c3e0a86d1f067a1f80c14c7c46d14a457135a1adbe64d099f15b53",
+    "estrategias/EA-000023-000002-actions.json": "141c0034e68a3f2f2d9bef76f778170aecd3d36e264a6409a620698148a6e726",
+    "estrategias/EA-000023-000002-sciv-sob-demanda.md": "3059ecd46ef2de5f4b7014c662f0ac26500479456e5be8d526f31e29f86829a5",
+    "handoffs/codex/EA-000023-000002-SCIV-F002-F004.md": "b6fb2dba0c3c0457d68abf10e126ff6b50c40c63de9cb2f9cb2fc61f608801f5"
+  }
+}

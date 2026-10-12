@@ -79,7 +79,15 @@
       "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "LOCAL_VERIFIED_PENDING_GIT_READBACK",
+      "verified_scope": "LOCAL_DOCUMENTARY_AND_SELECTED_OFFLINE_TESTS_ONLY",
+      "evidence_refs": [
+        "auditorias/EA-000023-000002-codex-sciv-f002-f004-2026-10-12.md",
+        "governanca/testes-sciv/2026-10-12/validation-summary.json",
+        "governanca/testes-sciv/2026-10-12/readback.json",
+        "governanca/testes-sciv/2026-10-12/sciv-gate.json"
+      ],
+      "operational_activation_authorized": false
     },
     {
       "action_key": "ACT-000023-000002-003",
@@ -112,7 +120,15 @@
       "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "LOCAL_VERIFIED_PENDING_GIT_READBACK",
+      "verified_scope": "LOCAL_DOCUMENTARY_AND_SELECTED_OFFLINE_TESTS_ONLY",
+      "evidence_refs": [
+        "auditorias/EA-000023-000002-codex-sciv-f002-f004-2026-10-12.md",
+        "governanca/testes-sciv/2026-10-12/validation-summary.json",
+        "governanca/testes-sciv/2026-10-12/readback.json",
+        "governanca/testes-sciv/2026-10-12/sciv-gate.json"
+      ],
+      "operational_activation_authorized": false
     },
     {
       "action_key": "ACT-000023-000002-004",
@@ -145,7 +161,15 @@
       "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "LOCAL_VERIFIED_PENDING_GIT_READBACK",
+      "verified_scope": "LOCAL_DOCUMENTARY_AND_SELECTED_OFFLINE_TESTS_ONLY",
+      "evidence_refs": [
+        "auditorias/EA-000023-000002-codex-sciv-f002-f004-2026-10-12.md",
+        "governanca/testes-sciv/2026-10-12/validation-summary.json",
+        "governanca/testes-sciv/2026-10-12/readback.json",
+        "governanca/testes-sciv/2026-10-12/sciv-gate.json"
+      ],
+      "operational_activation_authorized": false
     },
     {
       "action_key": "ACT-000023-000002-005",

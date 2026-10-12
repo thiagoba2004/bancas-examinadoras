@@ -1,0 +1,32 @@
+{
+  "executable": "<VENV>\\Scripts\\python.exe",
+  "python": "3.12.10",
+  "requirements": "<CHECKOUT>\\.codex\\sciv-deps\\governanca\\runtime\\requirements-m2.txt",
+  "packages": [
+    {
+      "package": "cryptography",
+      "expected": "50.0.1",
+      "installed": "50.0.1",
+      "conformant": true
+    },
+    {
+      "package": "jsonschema",
+      "expected": "4.25.1",
+      "installed": "4.25.1",
+      "conformant": true
+    },
+    {
+      "package": "PyJWT",
+      "expected": "2.10.1",
+      "installed": "2.10.1",
+      "conformant": true
+    },
+    {
+      "package": "PyYAML",
+      "expected": "6.0.3",
+      "installed": "6.0.3",
+      "conformant": true
+    }
+  ],
+  "conformant": true
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "path": "governanca/testes-sciv/2026-10-12/logs/dependencies.log",
+    "original_sha256": "526cd673b5d8db6c53510fc39c2f0a14ed9f0001eb4045425028664b03579a7c",
+    "published_sha256": "2976cea8e51f27f75ce17b923534fc08d9795e66985191416f1b359e790a7e8f",
+    "transformation": "Replace local checkout/venv path prefixes; original retained in isolated stage"
+  },
+  {
+    "path": "governanca/testes-sciv/2026-10-12/logs/generator.log",
+    "original_sha256": "5a4910b5dcd059480e972774f212a5711a4b7ceee2050cd174e841faa17d7407",
+    "published_sha256": "5a4910b5dcd059480e972774f212a5711a4b7ceee2050cd174e841faa17d7407",
+    "transformation": "Replace local checkout/venv path prefixes; original retained in isolated stage"
+  },
+  {
+    "path": "governanca/testes-sciv/2026-10-12/logs/local-preparation.log",
+    "original_sha256": "1e0a2a52f5a9dfcc714639ccc26e9da50dcdd8d54e50fa604a67af12cd6a2f31",
+    "published_sha256": "afafc320c2a854ad395ca094d2618bc0797eb502b9cf7f147b55b0a0ab67a049",
+    "transformation": "Replace local checkout/venv path prefixes; original retained in isolated stage"
+  },
+  {
+    "path": "governanca/testes-sciv/2026-10-12/logs/pep-offline.log",
+    "original_sha256": "aec29a1d4793ba08253dd739c035da78eeacbf453df0936776921ac8056d9e93",
+    "published_sha256": "aec29a1d4793ba08253dd739c035da78eeacbf453df0936776921ac8056d9e93",
+    "transformation": "Replace local checkout/venv path prefixes; original retained in isolated stage"
+  },
+  {
+    "path": "governanca/testes-sciv/2026-10-12/logs/runtime.log",
+    "original_sha256": "fb617c3808f0e4fb72f5de262df9ea9d92d25bfe4b01ea10e677f2c8b27e1e62",
+    "published_sha256": "fb617c3808f0e4fb72f5de262df9ea9d92d25bfe4b01ea10e677f2c8b27e1e62",
+    "transformation": "Replace local checkout/venv path prefixes; original retained in isolated stage"
+  }
+]

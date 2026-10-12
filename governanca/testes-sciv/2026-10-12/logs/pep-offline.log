@@ -1,0 +1,18 @@
+{"tests_run": 12, "failures": 0, "errors": 0, "skips": 0, "negative_effect_checks_denied": 3}
+test_absent_mandate_denied (test_r2_pep_offline.OfflinePEPTests.test_absent_mandate_denied) ... ok
+test_changed_policy_denied (test_r2_pep_offline.OfflinePEPTests.test_changed_policy_denied) ... ok
+test_invalid_destination_denied (test_r2_pep_offline.OfflinePEPTests.test_invalid_destination_denied) ... ok
+test_live_enforcement_always_denied (test_r2_pep_offline.OfflinePEPTests.test_live_enforcement_always_denied) ... ok
+test_live_enforcement_cannot_be_overridden_by_preview (test_r2_pep_offline.OfflinePEPTests.test_live_enforcement_cannot_be_overridden_by_preview) ... ok
+test_material_effect_does_not_reach_pdp (test_r2_pep_offline.OfflinePEPTests.test_material_effect_does_not_reach_pdp) ... ok
+test_missing_fact_provenance_denied (test_r2_pep_offline.OfflinePEPTests.test_missing_fact_provenance_denied) ... ok
+test_non_fixture_action_denied (test_r2_pep_offline.OfflinePEPTests.test_non_fixture_action_denied) ... ok
+test_offline_preview_is_non_authoritative (test_r2_pep_offline.OfflinePEPTests.test_offline_preview_is_non_authoritative) ... ok
+test_project_repository_denied (test_r2_pep_offline.OfflinePEPTests.test_project_repository_denied) ... ok
+test_revocation_denied (test_r2_pep_offline.OfflinePEPTests.test_revocation_denied) ... ok
+test_stale_head_denied (test_r2_pep_offline.OfflinePEPTests.test_stale_head_denied) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.016s
+
+OK

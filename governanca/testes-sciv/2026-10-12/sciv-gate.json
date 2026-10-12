@@ -1,0 +1,45 @@
+{
+  "exit_code": 0,
+  "result": {
+    "status": "PASS",
+    "gate": "sciv",
+    "route": "A",
+    "evidence": {
+      "initial_strategy": "EA-000023-000001",
+      "initial_plan": "estrategias/EA-000023-000001-bootstrap-rota-a.md",
+      "phases": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "action_plan_result": "NOT_BACKFILLED",
+      "action_plan_errors": [
+        "FILE_MISSING:estrategias/EA-000023-000001-actions.json",
+        "ACTION_MATRIX_INVALID_JSON",
+        "ACTION_MATRIX_STRATEGY_MISMATCH",
+        "NO_ACTIONS_DEFINED",
+        "PHASES_WITHOUT_ACTIONS:F-000023-000001-001,F-000023-000001-002,F-000023-000001-003,F-000023-000001-004"
+      ],
+      "legacy_bootstrap": {
+        "status": "LEGACY_FIRST_EA_MATRIX_NOT_BACKFILLED",
+        "commit": "f840adc0a94bc94f422d38598ad15687d7b2d17c",
+        "author_date": "2026-10-10T17:07:33-07:00",
+        "committer_date": "2026-10-10T17:07:33-07:00",
+        "effective_date": "2026-10-11",
+        "refs": [
+          "STRATEGY_LOG.jsonl",
+          "REQUEST_LOG.jsonl",
+          "estrategias/EA-000023-000001-bootstrap-rota-a.md"
+        ],
+        "created_event": "EVT-000023-20261010-001",
+        "concluded_event": "EVT-000023-20261010-002"
+      },
+      "sciv_action_plan_result": "PASS",
+      "sciv_strategy": "EA-000023-000002",
+      "sciv_mode": "ON_DEMAND"
+    },
+    "errors": [],
+    "limitation": "Documentary consistency only; never native UI attestation, A6/B8 acceptance or live PEP authorization. Site checks do not verify live deploy/HTTP, visual portfolio distinction, browser navigation or full accessibility."
+  }
+}

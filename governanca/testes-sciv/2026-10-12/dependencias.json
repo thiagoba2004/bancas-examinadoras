@@ -1,0 +1,13 @@
+{
+  "gerador": {
+    "sha": "260365c810449c91b1759ee6cf0506b09e571a1a",
+    "remote": "https://github.com/thiagoba2004/gerador-de-agents.git"
+  },
+  "governanca": {
+    "sha": "88fa8d60abbbf5a068a027aae0803dc6d45494d8",
+    "remote": "https://github.com/thiagoba2004/governanca-geral-modelos-ia.git"
+  },
+  "8a25dbd": "8a25dbdf37404016719b8595fca6fc3e3c354620 2026-10-11T22:08:21-03:00 2026-10-11T22:08:21-03:00",
+  "0f686028": "0f68602844a155e71c7433b54a3bc9ff8de002f3 2026-10-11T18:51:33-07:00 2026-10-11T18:51:33-07:00",
+  "85a91ce": "85a91ce837e89b4821ff4d180d0832687bfb8bb8 2026-10-11T19:12:08-07:00 2026-10-11T19:12:08-07:00"
+}
