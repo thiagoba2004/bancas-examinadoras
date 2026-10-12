@@ -69,3 +69,8 @@ Em todo teste futuro do recebimento, registrar o pedido, executar leitura compro
 O Chat especializado deve receber **Instruções e prompt de homologação com caminho e regra de persistência**, conforme a seção 7 de `thiagoba2004/gerador-de-agents/GERADOR_WORKFLOW.md`. Se o conector não puder escrever, fornecer o Markdown completo e registrar `NOT_PERSISTED`, sem simular GitHub. A cópia do adaptador `adaptadores/chatgpt/INSTRUCOES.md` permanece versionada; não presumir sincronização automática com a configuração da interface ChatGPT.
 
 Este índice e a migração não demonstram vínculo administrativo do Projeto ChatGPT, C3 efetivo, publicação de Site/Pages ou aceitação integral do Gate A6. Preservar o estado verificado no `PROJECT_STATE.json` até cumprir os requisitos próprios de homologação. Conteúdo S2+, credenciais e dados não públicos **não devem entrar em Git público**.
+
+
+## SCIV sob demanda — EA-000023-000002
+
+A `EA-000023-000002` foi criada sob o mandato global `REQ-GLOBAL-20261011-001` para **implantação documental SCIV**, distinta da primeira EA de bootstrap. Fonte: `estrategias/EA-000023-000002-sciv-sob-demanda.md` e matriz. F002–F004 são de CODEX no checkout específico; F005 requer instalação humana nativa e a F006 inclui testes conversacionais sob demanda. **Não há prova de aprovação C3 nem de vínculo ChatGPT especializado**. O bloco SCIV versionado no GitHub não instala Instruções nativas; abrir conversa ou saudar não autoriza consultar comunicados. `enabled=false` e modo `ON_DEMAND` até gates concretos. A decisão de PRJ-000022 sobre um teste symlink não equivale a prova física deste PRJ, que permanece condição pré-ativação. Proibidos S2+, credenciais, polling, cron, webhooks, site e gastos implícitos.
