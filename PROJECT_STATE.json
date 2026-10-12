@@ -14,8 +14,8 @@
   "generated_from_kernel": "1.11",
   "current_strategy_code": "EA-000023-000002",
   "current_strategy_name": "Implantação SCIV Essencial Sob Demanda",
-  "current_phase_code": "F-000023-000002-001",
-  "strategy_status": "IN_PROGRESS_DOCUMENTARY_REGISTRATION",
+  "current_phase_code": "F-000023-000002-002",
+  "strategy_status": "IN_PROGRESS_F002_READY_CODEX_LOCAL",
   "project_purpose_status": "EXPLICIT_EXAM_BOARD_ORGANIZERS_TOPIC_CONFIRMED",
   "project_purpose": "Estudar e documentar bancas examinadoras que organizam concursos públicos brasileiros, a partir de fontes públicas verificáveis.",
   "target_audience_status": "PENDING_DEFINITION",
@@ -37,7 +37,8 @@
     "INFORMATION_HANDLING_PROFILE.json",
     "estrategias/EA-000023-000001-bootstrap-rota-a.md",
     "estrategias/EA-000023-000002-sciv-sob-demanda.md",
-    "estrategias/EA-000023-000002-actions.json"
+    "estrategias/EA-000023-000002-actions.json",
+    "handoffs/codex/EA-000023-000002-SCIV-F002-F004.md"
   ],
   "last_completed_milestone": "EA-000023-000001 — bootstrap técnico verificado em 8 arquivos e perfil do Gerador via readback GitHub; nenhuma pesquisa substantiva, site ou Projeto ChatGPT criado.",
   "pending_items": [
@@ -45,7 +46,7 @@
     "Decidir e configurar o Projeto ChatGPT especializado; recomendação C3 via PSFCE ainda aguarda aprovação/configuração humana.",
     "Realizar handoff A6 dentro do Chat especializado com leitura verificável de AGENTS e PROJECT_STATE; não inferir recebimento."
   ],
-  "next_logical_step": "EA-000023-000002 F001 local SCIV created/documentary: verify global dual registration then CODEX LOCAL in PRJ23 for F002-F004. Human ChatGPT C3 remains recommendation only; never infer native installation, A6 or SCIV enabled; no site authorization.",
+  "next_logical_step": "EA-000023-000002 F001 documentary/dual VERIFIED. Next CODEX CLI Local exclusively in checkout thiagoba2004/bancas-examinadoras, handoff handoffs/codex/EA-000023-000002-SCIV-F002-F004.md. F002-004 code/tests not executed by G0. C3 recommendation not approved; SCIV enabled=false; site not mandated.",
   "no_new_spending": true,
   "last_concluded_strategy_code": "EA-000023-000001",
   "initialization_gate": "PUBLIC_PROJECT_TECHNICAL_BOOTSTRAP_VERIFIED",
@@ -83,14 +84,17 @@
     "opt_in_authorized": true,
     "mode": "ON_DEMAND",
     "operational_enabled": false,
-    "status": "EA_CREATED_F001_REGISTRATION_IN_PROGRESS",
-    "current_phase": "F-000023-000002-001",
-    "next_executor": "CHAT_G0_REGISTRY_THEN_CODEX_LOCAL_PRJ000023",
+    "status": "F001_DOCUMENTARY_VERIFIED_F002_CODEX_NEXT",
+    "current_phase": "F-000023-000002-002",
+    "next_executor": "CODEX_LOCAL_PRJ000023",
     "mailboxes_provisioned": false,
     "native_instructions_installed": false,
     "sciv_behavior_verified": false,
     "os_symlink_physical_test": "REQUIRE_PROOF_BEFORE_OPERATIONAL_ACTIVATION",
     "hand_off_c3": "RECOMMENDED_NOT_HUMAN_APPROVED",
-    "A6_accepted": false
+    "A6_accepted": false,
+    "last_completed_phase": "F-000023-000002-001",
+    "last_completed_gate": "SCIV_ADMISSAO_REGISTRADA",
+    "next_handoff_ref": "handoffs/codex/EA-000023-000002-SCIV-F002-F004.md"
   }
 }
