@@ -33,3 +33,8 @@ A `EA-000023-000001` foi concluída **somente para constituição técnica**, co
 **Estado do handoff:** `SPECIALIZED_INSTANCE_REQUIRED / A6_PENDING`. A PSFCE indica C3 como recomendação, **não aprovada nem configurada** para este PRJ. Uma futura decisão humana deve ser implementada e testada na interface do ChatGPT antes do aceite A6.
 
 **Próxima entrega candidata após handoff:** delimitar e elaborar um inventário de bancas organizadoras e fontes primárias de concursos, com método, período, âmbito de seleção e verificação individual definidos pelo Chat especializado. Não iniciar como pesquisa concluída.
+
+
+## EA-000023-000002 — SCIV Essencial Sob Demanda (11/10/2026)
+
+Novo mandato `REQ-GLOBAL-20261011-001`, pedido local `REQ-000023-20261011-004`; Plano em `estrategias/EA-000023-000002-sciv-sob-demanda.md` e matriz `estrategias/EA-000023-000002-actions.json`. F001: constituição documental e registro dual. F002–F004: **CODEX local em PRJ-000023** para caixas/estado, adaptador integral e testes offline, com `mode=ON_DEMAND`, `enabled=false`, segurança e readback. F005–F006: **somente depois** de instalação humana de Instruções e gate A6 próprio, quando admissíveis. A recomendação C3 **não foi aprovada/configurada**; A6 permanece pendente. Não há mandato de Site/Pages nem pesquisa substantiva. Prova física do symlink deve ser classificada e resolvida **antes de ativação operacional**; `SKIP` não é `PASS`. O SCIV de PRJ-000022 tem aceite de escopo repositório com ressalva ambiental e **não concede** permissões ao PRJ-000023.
