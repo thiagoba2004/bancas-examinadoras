@@ -30,13 +30,23 @@
         "Sem gastos, segredos, S2+ ou permissões novas",
         "C3 recomendado não equivale a aprovação/configuração humana"
       ],
-      "verification": "Tests/readback por SHA e gate específico; conclusão somente mediante evidência real do executor",
+      "verification": "Readback: namespace PRJ000023/000023, source request REQ-000023-20261011-004, single CREATED event, 6-phase plan, 7-action matrix, AGENTS/STATE/ROADMAP, global PORTFOLIO_STRATEGY_REGISTRY; boxes and native configuration NOT provisioned.",
       "completion_gate": "SCIV_ADMISSAO_REGISTRADA",
       "fallback": "Não substituir executor/ambiente sem reclassificação e autorização",
       "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "PLANNED"
+      "status": "VERIFIED",
+      "verified_scope": "LOCAL_DOCUMENTARY_EA_CREATED_AND_GLOBAL_DUAL_REGISTERED_ONLY",
+      "evidence_refs": [
+        "REQUEST_LOG.jsonl",
+        "STRATEGY_LOG.jsonl",
+        "PROJECT_STATE.json",
+        "AGENTS.md",
+        "ROADMAP.md",
+        "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+        "thiagoba2004/governanca-geral-modelos-ia/PORTFOLIO_STRATEGY_REGISTRY.jsonl"
+      ]
     },
     {
       "action_key": "ACT-000023-000002-002",
