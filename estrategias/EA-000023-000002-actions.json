@@ -1,0 +1,240 @@
+{
+  "schema_version": "1.0.0",
+  "strategy_code": "EA-000023-000002",
+  "project_code": "PRJ-000023",
+  "plan_ref": "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+  "source_global_strategy": "EA-000000-000034",
+  "actions": [
+    {
+      "action_key": "ACT-000023-000002-001",
+      "phase_code": "F-000023-000002-001",
+      "description": "Registrar EA local SCIV, mandato global, Plano de Fases, request, CREATED, estado e catálogo dual, sem ativação",
+      "result_ref": "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+      "accountable_owner": "PRJ-000023_GOVERNANCA_LOCAL",
+      "executor": "CHAT",
+      "executor_scope": "Governança Geral por Chat GitHub conector, não IA especializada",
+      "tool": "GitHub connector autorizado",
+      "environment": "Chat global da Governança Geral, conectado ao GitHub",
+      "context_mode": "B0_G0_GLOBAL_GITHUB",
+      "source_refs": [
+        "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+        "REQ-GLOBAL-20261011-001",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/bancas-examinadoras/estrategias/EA-000023-000002-sciv-sob-demanda.md",
+      "routing_action_id": "GITHUB_DOC_WRITE",
+      "authorization_ref": "REQ-GLOBAL-20261011-001",
+      "preconditions": [
+        "PRJ, namespace, mandato, HEAD e WIP verificados",
+        "Perfil SCIV opt-in autorizado ON_DEMAND; enabled=false até comprovação de gates",
+        "Sem gastos, segredos, S2+ ou permissões novas",
+        "C3 recomendado não equivale a aprovação/configuração humana"
+      ],
+      "verification": "Tests/readback por SHA e gate específico; conclusão somente mediante evidência real do executor",
+      "completion_gate": "SCIV_ADMISSAO_REGISTRADA",
+      "fallback": "Não substituir executor/ambiente sem reclassificação e autorização",
+      "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    },
+    {
+      "action_key": "ACT-000023-000002-002",
+      "phase_code": "F-000023-000002-002",
+      "description": "Provisionar caixas SCIV bilaterais e estado ON_DEMAND enabled=false/operational_ref main, com proteção e readback",
+      "result_ref": "comunicados/SCIV_STATE.json",
+      "accountable_owner": "PRJ-000023_GOVERNANCA_LOCAL",
+      "executor": "CODEX",
+      "executor_scope": "Codex CLI local no checkout do PRJ-000023",
+      "tool": "Codex CLI + Python tests + Git",
+      "environment": "VS Code + Codex Local / thiagoba2004/bancas-examinadoras",
+      "context_mode": "B0_CODEX_WITH_EXPLICIT_HANDOFF",
+      "source_refs": [
+        "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+        "REQ-GLOBAL-20261011-001",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/bancas-examinadoras/comunicados/SCIV_STATE.json",
+      "routing_action_id": "CODE_REFACTOR",
+      "authorization_ref": "REQ-GLOBAL-20261011-001",
+      "preconditions": [
+        "PRJ, namespace, mandato, HEAD e WIP verificados",
+        "Perfil SCIV opt-in autorizado ON_DEMAND; enabled=false até comprovação de gates",
+        "Sem gastos, segredos, S2+ ou permissões novas",
+        "C3 recomendado não equivale a aprovação/configuração humana"
+      ],
+      "verification": "Tests/readback por SHA e gate específico; conclusão somente mediante evidência real do executor",
+      "completion_gate": "CAIXAS_VERSIONADAS",
+      "fallback": "Não substituir executor/ambiente sem reclassificação e autorização",
+      "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    },
+    {
+      "action_key": "ACT-000023-000002-003",
+      "phase_code": "F-000023-000002-003",
+      "description": "Compor e verificar bloco SCIV no adaptador integral sem sobrescrever missão nem presumir C3 humano aprovado",
+      "result_ref": "adaptadores/chatgpt/INSTRUCOES.md",
+      "accountable_owner": "PRJ-000023_GOVERNANCA_LOCAL",
+      "executor": "CODEX",
+      "executor_scope": "Codex CLI local no checkout do PRJ-000023",
+      "tool": "Codex CLI + Python tests + Git",
+      "environment": "VS Code + Codex Local / thiagoba2004/bancas-examinadoras",
+      "context_mode": "B0_CODEX_WITH_EXPLICIT_HANDOFF",
+      "source_refs": [
+        "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+        "REQ-GLOBAL-20261011-001",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/bancas-examinadoras/adaptadores/chatgpt/INSTRUCOES.md",
+      "routing_action_id": "CODE_REFACTOR",
+      "authorization_ref": "REQ-GLOBAL-20261011-001",
+      "preconditions": [
+        "PRJ, namespace, mandato, HEAD e WIP verificados",
+        "Perfil SCIV opt-in autorizado ON_DEMAND; enabled=false até comprovação de gates",
+        "Sem gastos, segredos, S2+ ou permissões novas",
+        "C3 recomendado não equivale a aprovação/configuração humana"
+      ],
+      "verification": "Tests/readback por SHA e gate específico; conclusão somente mediante evidência real do executor",
+      "completion_gate": "INSTRUCOES_VERSIONADAS",
+      "fallback": "Não substituir executor/ambiente sem reclassificação e autorização",
+      "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    },
+    {
+      "action_key": "ACT-000023-000002-004",
+      "phase_code": "F-000023-000002-004",
+      "description": "Testar gate sciv, idempotência, fluxo ON_DEMAND, compatibilidade histórica, segurança symlink e regressão/commit/readback",
+      "result_ref": "governanca/testes-sciv/",
+      "accountable_owner": "PRJ-000023_GOVERNANCA_LOCAL",
+      "executor": "CODEX",
+      "executor_scope": "Codex CLI local no checkout do PRJ-000023",
+      "tool": "Codex CLI + Python tests + Git",
+      "environment": "VS Code + Codex Local / thiagoba2004/bancas-examinadoras",
+      "context_mode": "B0_CODEX_WITH_EXPLICIT_HANDOFF",
+      "source_refs": [
+        "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+        "REQ-GLOBAL-20261011-001",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/bancas-examinadoras/governanca/testes-sciv/",
+      "routing_action_id": "CODE_REFACTOR",
+      "authorization_ref": "REQ-GLOBAL-20261011-001",
+      "preconditions": [
+        "PRJ, namespace, mandato, HEAD e WIP verificados",
+        "Perfil SCIV opt-in autorizado ON_DEMAND; enabled=false até comprovação de gates",
+        "Sem gastos, segredos, S2+ ou permissões novas",
+        "C3 recomendado não equivale a aprovação/configuração humana"
+      ],
+      "verification": "Tests/readback por SHA e gate específico; conclusão somente mediante evidência real do executor",
+      "completion_gate": "SCIV_REPO_VERIFICADO",
+      "fallback": "Não substituir executor/ambiente sem reclassificação e autorização",
+      "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    },
+    {
+      "action_key": "ACT-000023-000002-005",
+      "phase_code": "F-000023-000002-005",
+      "description": "Instalar Instruções nativas somente após gates e decisão real de contexto; atestar B1/C3 sem confundir recomendação com aprovação",
+      "result_ref": "governanca/recebimentos/",
+      "accountable_owner": "PRJ-000023_GOVERNANCA_LOCAL",
+      "executor": "HUMAN",
+      "executor_scope": "Titular na interface nativa do Projeto ChatGPT, se existir",
+      "tool": "ChatGPT native Project UI + atestado humano",
+      "environment": "Projeto ChatGPT nativo somente após aprovação/configuração humana",
+      "context_mode": "B1_ONLY_AFTER_HUMAN_VERIFICATION",
+      "source_refs": [
+        "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+        "REQ-GLOBAL-20261011-001",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/bancas-examinadoras/governanca/recebimentos/",
+      "routing_action_id": "HUMAN_INTERVENTION",
+      "authorization_ref": "REQ-GLOBAL-20261011-001",
+      "preconditions": [
+        "PRJ, namespace, mandato, HEAD e WIP verificados",
+        "Perfil SCIV opt-in autorizado ON_DEMAND; enabled=false até comprovação de gates",
+        "Sem gastos, segredos, S2+ ou permissões novas",
+        "C3 recomendado não equivale a aprovação/configuração humana"
+      ],
+      "verification": "Tests/readback por SHA e gate específico; conclusão somente mediante evidência real do executor",
+      "completion_gate": "NATIVE_INSTRUCTIONS_HUMAN_ATTESTED",
+      "fallback": "Não substituir executor/ambiente sem reclassificação e autorização",
+      "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    },
+    {
+      "action_key": "ACT-000023-000002-006",
+      "phase_code": "F-000023-000002-005",
+      "description": "Após instalação humana, publicar novo Comunicado de teste A6 correlacionado ao relatório histórico e receber diagnóstico real da IA especializada",
+      "result_ref": "comunicados/governanca-geral/mensagens/",
+      "accountable_owner": "PRJ-000023_GOVERNANCA_LOCAL",
+      "executor": "CHAT",
+      "executor_scope": "Governança Geral por Chat GitHub conector, não IA especializada",
+      "tool": "GitHub connector autorizado",
+      "environment": "Chat global da Governança Geral, conectado ao GitHub",
+      "context_mode": "B0_G0_GLOBAL_GITHUB",
+      "source_refs": [
+        "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+        "REQ-GLOBAL-20261011-001",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/bancas-examinadoras/comunicados/governanca-geral/mensagens/",
+      "routing_action_id": "GITHUB_DOC_WRITE",
+      "authorization_ref": "REQ-GLOBAL-20261011-001",
+      "preconditions": [
+        "PRJ, namespace, mandato, HEAD e WIP verificados",
+        "Perfil SCIV opt-in autorizado ON_DEMAND; enabled=false até comprovação de gates",
+        "Sem gastos, segredos, S2+ ou permissões novas",
+        "C3 recomendado não equivale a aprovação/configuração humana"
+      ],
+      "verification": "Tests/readback por SHA e gate específico; conclusão somente mediante evidência real do executor",
+      "completion_gate": "A6_POS_INSTALACAO_CLASSIFICADO",
+      "fallback": "Não substituir executor/ambiente sem reclassificação e autorização",
+      "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    },
+    {
+      "action_key": "ACT-000023-000002-007",
+      "phase_code": "F-000023-000002-006",
+      "description": "Validar comportamento real sob demanda, resposta/correlação/recibo e arquivamento bilateral; não inferir execução sem evidência",
+      "result_ref": "comunicados/ia-especializada/historico/",
+      "accountable_owner": "PRJ-000023_GOVERNANCA_LOCAL",
+      "executor": "CHAT",
+      "executor_scope": "Governança Geral por Chat GitHub conector, não IA especializada",
+      "tool": "GitHub connector autorizado",
+      "environment": "Chat global da Governança Geral, conectado ao GitHub",
+      "context_mode": "B0_G0_GLOBAL_GITHUB",
+      "source_refs": [
+        "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+        "REQ-GLOBAL-20261011-001",
+        "thiagoba2004/governanca-geral-modelos-ia/EXECUTION_ACTION_PLAN_STANDARD.md"
+      ],
+      "destination_ref": "P2_GIT_PUBLICO_REPOSITORIO:thiagoba2004/bancas-examinadoras/comunicados/ia-especializada/historico/",
+      "routing_action_id": "GITHUB_READ",
+      "authorization_ref": "REQ-GLOBAL-20261011-001",
+      "preconditions": [
+        "PRJ, namespace, mandato, HEAD e WIP verificados",
+        "Perfil SCIV opt-in autorizado ON_DEMAND; enabled=false até comprovação de gates",
+        "Sem gastos, segredos, S2+ ou permissões novas",
+        "C3 recomendado não equivale a aprovação/configuração humana"
+      ],
+      "verification": "Tests/readback por SHA e gate específico; conclusão somente mediante evidência real do executor",
+      "completion_gate": "SCIV_COMPORTAMENTO_CLASSIFICADO",
+      "fallback": "Não substituir executor/ambiente sem reclassificação e autorização",
+      "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
+      "cost_class": "NO_NEW_SPEND",
+      "spend_limit": 0,
+      "status": "PLANNED"
+    }
+  ]
+}
