@@ -6,16 +6,16 @@
   "project_alias": null,
   "project_id_legacy": "bancas-examinadoras",
   "repository": "thiagoba2004/bancas-examinadoras",
-  "updated_at": "2026-10-10",
-  "status": "TECHNICAL_BOOTSTRAP_VERIFIED_A6_PENDING",
+  "updated_at": "2026-10-11",
+  "status": "SCIV_EA000002_CREATED_DOCUMENTARY_NOT_PROVISIONED_A6_PENDING",
   "generator_project_code": "PRJ-000002",
   "generator_strategy_code": "EA-000002-000026",
   "generator_route": "A",
   "generated_from_kernel": "1.11",
-  "current_strategy_code": null,
-  "current_strategy_name": null,
-  "current_phase_code": null,
-  "strategy_status": "SEM_ESTRATEGIA_ATIVA",
+  "current_strategy_code": "EA-000023-000002",
+  "current_strategy_name": "Implantação SCIV Essencial Sob Demanda",
+  "current_phase_code": "F-000023-000002-001",
+  "strategy_status": "IN_PROGRESS_DOCUMENTARY_REGISTRATION",
   "project_purpose_status": "EXPLICIT_EXAM_BOARD_ORGANIZERS_TOPIC_CONFIRMED",
   "project_purpose": "Estudar e documentar bancas examinadoras que organizam concursos públicos brasileiros, a partir de fontes públicas verificáveis.",
   "target_audience_status": "PENDING_DEFINITION",
@@ -35,7 +35,9 @@
     "PROJECT_STATE.json",
     "ROADMAP.md",
     "INFORMATION_HANDLING_PROFILE.json",
-    "estrategias/EA-000023-000001-bootstrap-rota-a.md"
+    "estrategias/EA-000023-000001-bootstrap-rota-a.md",
+    "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+    "estrategias/EA-000023-000002-actions.json"
   ],
   "last_completed_milestone": "EA-000023-000001 — bootstrap técnico verificado em 8 arquivos e perfil do Gerador via readback GitHub; nenhuma pesquisa substantiva, site ou Projeto ChatGPT criado.",
   "pending_items": [
@@ -43,7 +45,7 @@
     "Decidir e configurar o Projeto ChatGPT especializado; recomendação C3 via PSFCE ainda aguarda aprovação/configuração humana.",
     "Realizar handoff A6 dentro do Chat especializado com leitura verificável de AGENTS e PROJECT_STATE; não inferir recebimento."
   ],
-  "next_logical_step": "Apresentar recomendação fundamentada C3 para Projeto ChatGPT próprio; obter aprovação/configuração e testar Gate A6. Após aceite, instância especializada define estratégia substantiva e primeira entrega.",
+  "next_logical_step": "EA-000023-000002 F001 local SCIV created/documentary: verify global dual registration then CODEX LOCAL in PRJ23 for F002-F004. Human ChatGPT C3 remains recommendation only; never infer native installation, A6 or SCIV enabled; no site authorization.",
   "no_new_spending": true,
   "last_concluded_strategy_code": "EA-000023-000001",
   "initialization_gate": "PUBLIC_PROJECT_TECHNICAL_BOOTSTRAP_VERIFIED",
@@ -72,5 +74,23 @@
     "pages_created": false,
     "chatgpt_project_activated": false,
     "new_spending": false
+  },
+  "sciv_rollout": {
+    "strategy_code": "EA-000023-000002",
+    "global_strategy": "EA-000000-000034",
+    "plan_ref": "estrategias/EA-000023-000002-sciv-sob-demanda.md",
+    "action_plan_ref": "estrategias/EA-000023-000002-actions.json",
+    "opt_in_authorized": true,
+    "mode": "ON_DEMAND",
+    "operational_enabled": false,
+    "status": "EA_CREATED_F001_REGISTRATION_IN_PROGRESS",
+    "current_phase": "F-000023-000002-001",
+    "next_executor": "CHAT_G0_REGISTRY_THEN_CODEX_LOCAL_PRJ000023",
+    "mailboxes_provisioned": false,
+    "native_instructions_installed": false,
+    "sciv_behavior_verified": false,
+    "os_symlink_physical_test": "REQUIRE_PROOF_BEFORE_OPERATIONAL_ACTIVATION",
+    "hand_off_c3": "RECOMMENDED_NOT_HUMAN_APPROVED",
+    "A6_accepted": false
   }
 }
