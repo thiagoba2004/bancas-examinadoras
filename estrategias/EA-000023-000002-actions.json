@@ -79,15 +79,17 @@
       "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "LOCAL_VERIFIED_PENDING_GIT_READBACK",
-      "verified_scope": "LOCAL_DOCUMENTARY_AND_SELECTED_OFFLINE_TESTS_ONLY",
+      "status": "VERIFIED",
+      "verified_scope": "VERSIONED_PUBLIC_REPOSITORY_AND_SELECTED_OFFLINE_TESTS_ONLY",
       "evidence_refs": [
         "auditorias/EA-000023-000002-codex-sciv-f002-f004-2026-10-12.md",
         "governanca/testes-sciv/2026-10-12/validation-summary.json",
         "governanca/testes-sciv/2026-10-12/readback.json",
-        "governanca/testes-sciv/2026-10-12/sciv-gate.json"
+        "governanca/testes-sciv/2026-10-12/sciv-gate.json",
+        "governanca/testes-sciv/2026-10-12/github-readback.json"
       ],
-      "operational_activation_authorized": false
+      "operational_activation_authorized": false,
+      "verified_commit": "07948f695636b76d7c6f506534caf230005e5601"
     },
     {
       "action_key": "ACT-000023-000002-003",
@@ -120,15 +122,17 @@
       "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "LOCAL_VERIFIED_PENDING_GIT_READBACK",
-      "verified_scope": "LOCAL_DOCUMENTARY_AND_SELECTED_OFFLINE_TESTS_ONLY",
+      "status": "VERIFIED",
+      "verified_scope": "VERSIONED_PUBLIC_REPOSITORY_AND_SELECTED_OFFLINE_TESTS_ONLY",
       "evidence_refs": [
         "auditorias/EA-000023-000002-codex-sciv-f002-f004-2026-10-12.md",
         "governanca/testes-sciv/2026-10-12/validation-summary.json",
         "governanca/testes-sciv/2026-10-12/readback.json",
-        "governanca/testes-sciv/2026-10-12/sciv-gate.json"
+        "governanca/testes-sciv/2026-10-12/sciv-gate.json",
+        "governanca/testes-sciv/2026-10-12/github-readback.json"
       ],
-      "operational_activation_authorized": false
+      "operational_activation_authorized": false,
+      "verified_commit": "07948f695636b76d7c6f506534caf230005e5601"
     },
     {
       "action_key": "ACT-000023-000002-004",
@@ -161,15 +165,17 @@
       "on_block": "Registrar BLOCKED com causa, owner e próximo passo; continuar apenas ações independentes permitidas",
       "cost_class": "NO_NEW_SPEND",
       "spend_limit": 0,
-      "status": "LOCAL_VERIFIED_PENDING_GIT_READBACK",
-      "verified_scope": "LOCAL_DOCUMENTARY_AND_SELECTED_OFFLINE_TESTS_ONLY",
+      "status": "VERIFIED",
+      "verified_scope": "VERSIONED_PUBLIC_REPOSITORY_AND_SELECTED_OFFLINE_TESTS_ONLY",
       "evidence_refs": [
         "auditorias/EA-000023-000002-codex-sciv-f002-f004-2026-10-12.md",
         "governanca/testes-sciv/2026-10-12/validation-summary.json",
         "governanca/testes-sciv/2026-10-12/readback.json",
-        "governanca/testes-sciv/2026-10-12/sciv-gate.json"
+        "governanca/testes-sciv/2026-10-12/sciv-gate.json",
+        "governanca/testes-sciv/2026-10-12/github-readback.json"
       ],
-      "operational_activation_authorized": false
+      "operational_activation_authorized": false,
+      "verified_commit": "07948f695636b76d7c6f506534caf230005e5601"
     },
     {
       "action_key": "ACT-000023-000002-005",

@@ -44,3 +44,8 @@ Novo mandato `REQ-GLOBAL-20261011-001`, pedido local `REQ-000023-20261011-004`; 
 
 F002/F003 aplicadas localmente sob manifesto autorizado; F004: 151 PASS e 2 SKIP físicos, zero FAIL/ERROR nas suítes selecionadas. Gate documental SCIV PASS; primeira EA histórica NOT_BACKFILLED comprovada por Git. Gate bootstrap permanece estrito (controle negativo com falha esperada). Publicação/readback ainda pendentes neste checkpoint. Nenhuma promoção C3/A6 ou ativação SCIV.
 Relatório: `auditorias/EA-000023-000002-codex-sciv-f002-f004-2026-10-12.md`.
+
+
+## Fechamento CODEX no escopo repositório — 12/10/2026
+
+F002–F004 verificadas mediante commit `07948f695636b76d7c6f506534caf230005e5601` e readback de 30 arquivos por SHA/bytes em `governanca/testes-sciv/2026-10-12/github-readback.json`. O checkpoint de publicação pendente acima é histórico. 151 PASS e 2 SKIP físicos preservados; sem aprovação operacional. F005/F006 não executadas. Owner HUMAN/G0 para contexto e instalação quando autorizados; SCIV desativado, C3 não aprovado e A6 pendente. Prova física compatível permanece condição anterior à ativação.
