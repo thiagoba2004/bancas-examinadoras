@@ -11,8 +11,12 @@
   "opt_in_authorized": true,
   "authorization_ref": "REQ-GLOBAL-20261011-001",
   "native_instructions_installed": false,
-  "C3_human_approved": false,
+  "C3_human_approved": true,
   "A6_accepted": false,
   "operational_activation_blocked": true,
-  "os_symlink_physical_test": "NOT_VERIFIED"
+  "os_symlink_physical_test": "NOT_VERIFIED",
+  "C3_approval_ref": "REQ-000023-20261020-007",
+  "C3_native_setting_evidence": "UI_SCREENSHOT_CONFIRMED_HUMAN_ATTESTED",
+  "B1_binding_human_attested": true,
+  "native_instructions_human_attested": true
 }
