@@ -52,12 +52,13 @@
   "initialization_gate": "PUBLIC_PROJECT_TECHNICAL_BOOTSTRAP_VERIFIED",
   "operational_handoff": {
     "target_owner": "SPECIALIZED_CHATGPT_PROJECT_RECOMMENDED",
-    "target_memory_mode": "C3_RECOMMENDED_NOT_APPROVED",
-    "actual_binding": "NOT_VERIFIED",
-    "actual_memory_mode": "NOT_VERIFIED",
-    "status": "SPECIALIZED_INSTANCE_REQUIRED",
+    "target_memory_mode": "C3_HUMAN_APPROVED",
+    "actual_binding": "B1_HUMAN_ATTESTED_PLATFORM_API_NOT_VERIFIED",
+    "actual_memory_mode": "C3_UI_SCREENSHOT_CONFIRMED",
+    "status": "SPECIALIZED_CONTEXT_CONFIRMED_A6_PENDING",
     "gate": "A6_PENDING",
-    "technical_bootstrap": "VERIFIED"
+    "technical_bootstrap": "VERIFIED",
+    "c3_approval_ref": "REQ-000023-20261020-007"
   },
   "last_concluded_strategy_name": "Inicialização técnica canônica de Bancas Examinadoras pela Rota A",
   "last_completed_phase": "F-000023-000002-004",
@@ -91,7 +92,7 @@
     "native_instructions_installed": false,
     "sciv_behavior_verified": false,
     "os_symlink_physical_test": "SKIP_ENV_NOT_SUPPORTED_WINERROR_1314_NOT_PASS",
-    "hand_off_c3": "RECOMMENDED_NOT_HUMAN_APPROVED",
+    "hand_off_c3": "HUMAN_APPROVED_UI_SCREENSHOT_CONFIRMED",
     "A6_accepted": false,
     "last_completed_phase": "F-000023-000002-004",
     "last_completed_gate": "SCIV_REPO_VERIFICADO",
@@ -101,6 +102,11 @@
     "test_summary_ref": "governanca/testes-sciv/2026-10-12/validation-summary.json",
     "readback_commit": "07948f695636b76d7c6f506534caf230005e5601",
     "readback_ref": "governanca/testes-sciv/2026-10-12/github-readback.json",
-    "completed_codex_handoff_ref": "handoffs/codex/EA-000023-000002-SCIV-F002-F004.md"
-  }
+    "completed_codex_handoff_ref": "handoffs/codex/EA-000023-000002-SCIV-F002-F004.md",
+    "native_instructions_human_attested": true
+  },
+  "c3_selection_human_approved": true,
+  "c3_normative_approval_ref": "REQ-000023-20261020-007",
+  "c3_configuration_evidence": "UI_SCREENSHOT_CONFIRMED_2026-10-20",
+  "chatgpt_project_binding_evidence": "HUMAN_ATTESTED_NOT_PLATFORM_API"
 }
